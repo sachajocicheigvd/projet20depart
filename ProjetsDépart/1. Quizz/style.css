@@ -39,6 +39,7 @@ li{
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
     margin-bottom: 20px;
     padding: 15px 25px 25px;
+    border-radius: 5px;
 
 
 
@@ -80,7 +81,7 @@ input[type='radio']{
 }
 
 .subbutton:hover{
-    background-color: lightblue;
+    background-color: darkblue;
 }
 
 .echec {

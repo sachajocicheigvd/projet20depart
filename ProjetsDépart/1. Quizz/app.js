@@ -13,6 +13,7 @@ sub.addEventListener("click",(e)=>{
     e.preventDefault();
     verifrep();
 
+
 })
 
 function verifrep(){
@@ -41,9 +42,11 @@ function verifrep(){
     else{
         document.querySelector("#questonnaire > div.sectionVal > h2").textContent=`vous avez fait ${5-juste} faux`
         document.querySelector("#questonnaire").classList.add("echec")
-
-
+        setTimeout(() => {
+            document.querySelector("#questonnaire").classList.remove('echec');
+        }, 500)
 
     }
+
 
 }
