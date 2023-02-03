@@ -8,13 +8,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
 form
 {
-    position: absolute;
-    top: 5%;
-    left: 25%;
-    list-style: none;
-
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
 
 
 }
@@ -27,8 +35,70 @@ li{
 
 .section{
 
-    box-shadow: 2px 2px 2px 2px black;
+
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
     margin-bottom: 20px;
+    padding: 15px 25px 25px;
 
 
+}
+
+h2
+{
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+.subbutton{
+
+
+    background-color: blue;
+    color: white;
+    height: 3rem;
+    width: 5rem;
+    font: bold 1.2rem arial, sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+
+}
+
+input[type='radio']{
+    transform: scale(1.8);
+    margin: 10px;
+}
+
+.sectionVal{
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+
+}
+
+.subbutton:hover{
+    background-color: lightblue;
+}
+
+.echec {
+    animation: echec 0.3s ease-in-out;
+}
+
+@keyframes echec {
+    0%{
+       transform: translateX(0px);
+    }
+    33%{
+        transform: translateX(5px);
+
+    }
+    66%{
+        transform: translateX(-5px);
+
+    }
+    0%{
+        transform: translateX(0px);
+
+    }
 }
