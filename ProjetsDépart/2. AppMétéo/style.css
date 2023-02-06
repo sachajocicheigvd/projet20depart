@@ -10,3 +10,61 @@ body {
     background: linear-gradient(45deg, rgb(59,50,50), rgb(22,28,29));
     height: 100vh;
 }
+
+
+.fullcontainer{
+    background-color: white;
+    color: black;
+    width: 95%;
+    margin: auto;
+}
+
+.sectionUnTitre{
+    text-align: center;
+}
+
+.sectionDeuxGenerale{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    height: 20em;
+    text-align: center;
+    gap: 5px;
+    background-color: #734b6d;
+
+}
+.sectionDeuxGenerale > div {
+
+    margin: auto;
+    color: white;
+
+}
+.sectionDeuxGenerale > div > div{
+    margin: auto;
+}
+
+
+
+
+
+
+.sectionTroisHeure > div{
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: repeat(7,auto);
+    gap: 10px;
+    background-color: deepskyblue;
+    padding: 10px;
+
+}
+
+
+
+
+.sectionTroisHeure > div > div{
+
+    background-color: powderblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    width: 6rem;
+}
