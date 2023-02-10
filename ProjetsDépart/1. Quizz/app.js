@@ -8,7 +8,7 @@ let rep4= document.querySelector("#true4")
 let rep5=document.querySelector("#true5")
 let tblvar=[rep1,rep2,rep3,rep4,rep5]
 
-
+//
 sub.addEventListener("click",(e)=>{
     e.preventDefault();
     verifrep();
