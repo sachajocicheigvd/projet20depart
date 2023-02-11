@@ -42,7 +42,7 @@ searchbarTxt.addEventListener('keyup', (e)=>{
 
 
 })
-
+//
 function afficheElement(i){
 
 
